@@ -1,0 +1,26 @@
+create or replace PACKAGE PCR_DIM_BLC_ARRIVALE_NOTICE_REMINDER AS 
+/*-----------------------------------------------------------------------------------------------------------
+- Search for DIM Arrival Notice Reminder
+-------------------------------------------------------------------------------------------------------------
+COPYRIGHT RCL PUBLIC CO., LTD. 2010
+-------------------------------------------------------------------------------------------------------------
+AUTHOR  Cognis 22/04/2020
+- CHANGE LOG ------------------------------------------------------------------------------------------------
+## DD/MM/YY           -USER-          -TASKREF-           -SHORT DESCRIPTION
+01 22/04/2020          Chandu                             
+-----------------------------------------------------------------------------------------------------------*/
+
+  PROCEDURE PCR_DIM_BLC_NOTICE_REMINDER_SEARCH(
+      P_I_V_BL                       IN VARCHAR2,       
+      P_I_V_SERVICE                  IN VARCHAR2,
+      P_I_V_VESSEL                   IN VARCHAR2,
+      P_I_V_VOYAGE                   IN VARCHAR2, 
+      P_I_V_DIRECTION                IN VARCHAR2,      
+    --  P_I_V_PORT                   IN VARCHAR2,
+      P_I_V_IN_VOYAGE                IN VARCHAR2,         
+      P_I_V_ETA                      IN VARCHAR2,      
+	  P_I_V_USER_ID                  IN VARCHAR2,
+      P_O_V_BLC_MAPPING_LIST       OUT SYS_REFCURSOR
+  ); 
+
+END PCR_DIM_BLC_ARRIVALE_NOTICE_REMINDER;

@@ -1,0 +1,23 @@
+create or replace PACKAGE PCR_DIM_BLC_INVOYAGE_BROWSER AS 
+/*-----------------------------------------------------------------------------------------------------------
+- Search for DIM Arrival Notice
+-------------------------------------------------------------------------------------------------------------
+COPYRIGHT RCL PUBLIC CO., LTD. 2010
+-------------------------------------------------------------------------------------------------------------
+AUTHOR  Cognis 22/04/2020
+- CHANGE LOG ------------------------------------------------------------------------------------------------
+## DD/MM/YY           -USER-          -TASKREF-           -SHORT DESCRIPTION
+01 22/04/2020          Chandu                             
+-----------------------------------------------------------------------------------------------------------*/
+ PROCEDURE PCR_DIM_BLC_INVOYAGE_BROWSER_SEARCH(
+
+
+                                          P_I_V_LOOKUP_PORT                IN VARCHAR2,       
+                                          P_I_V_LOOKUP_INVOYAGE            IN VARCHAR2,
+                                          P_I_V_USER_ID                    IN VARCHAR2,
+                                          P_I_V_ETA_DATE                   IN VARCHAR2,
+                                          P_O_V_BLC_MAPPING_LIST           OUT SYS_REFCURSOR
+);
+
+
+END PCR_DIM_BLC_INVOYAGE_BROWSER;

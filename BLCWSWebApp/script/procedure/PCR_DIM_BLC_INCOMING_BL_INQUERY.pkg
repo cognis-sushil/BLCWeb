@@ -1,0 +1,26 @@
+create or replace PACKAGE PCR_DIM_BLC_INCOMING_BL_INQUERY AS 
+/*-----------------------------------------------------------------------------------------------------------
+- Search for DIM INCOMING BL INQUERY.
+-------------------------------------------------------------------------------------------------------------
+COPYRIGHT RCL PUBLIC CO., LTD. 2010
+-------------------------------------------------------------------------------------------------------------
+AUTHOR  Cognis 23/04/2020
+- CHANGE LOG ------------------------------------------------------------------------------------------------
+## DD/MM/YY           -USER-          -TASKREF-           -SHORT DESCRIPTION
+01 23/04/2020          Chandu                             
+-----------------------------------------------------------------------------------------------------------*/
+ 
+  PROCEDURE PCR_DIM_BLC_INCOMING_BL_INQUERY_SEARCH(            
+      P_I_V_SERVICE                  IN VARCHAR2,
+      P_I_V_VESSEL                   IN VARCHAR2,
+      P_I_V_VOYAGE                   IN VARCHAR2, 
+      P_I_V_DIRECTION                IN VARCHAR2,
+      P_I_V_POL                      IN VARCHAR2,
+      P_I_V_POT                      IN VARCHAR2,         
+      P_I_V_START_DATE               IN VARCHAR2,
+      P_I_V_END_DATE                 IN VARCHAR2,      
+	  P_I_V_USER_ID                  IN VARCHAR2,
+      P_O_V_BLC_MAPPING_LIST         OUT SYS_REFCURSOR
+  ); 
+
+END PCR_DIM_BLC_INCOMING_BL_INQUERY;

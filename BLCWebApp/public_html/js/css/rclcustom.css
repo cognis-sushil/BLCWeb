@@ -1,0 +1,18 @@
+/*****Modified by Avanti 8thSep2019***/
+.fieldReadOnly{
+	background-color: #E8E8E8;
+    border: 0px !important;
+    padding-left: 5px;
+}
+
+.readOnlyEnable{
+	background-color: transparent;
+	padding-left: 0px;
+	border: 0px;
+}
+
+.selectArrowDisable::-ms-expand {
+	display:none;
+}
+
+/*****Modified by Avanti 8thSep2019***/

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ppfml version="2.00" project="BKG Manual" type="4">
+  <contextmap>
+    
+  </contextmap>
+  <topiclist defaulttopic="‎Introduction.htm">
+    
+    <topic>
+      ‎Introduction.htm
+    </topic>
+    
+    <topic>
+      Menu.htm
+    </topic>
+    
+    <topic>
+      Booking_Entry.htm
+    </topic>
+    
+    <topic>
+      Booking_Search.htm
+    </topic>
+    
+    <topic>
+      New_Booking_screen.htm
+    </topic>
+    
+    <topic>
+      Express_Booking.htm
+    </topic>
+    
+    <topic>
+      Booking_Entry_screen.htm
+    </topic>
+    
+    <topic>
+      Close_Booking.htm
+    </topic>
+    
+    <topic>
+      CancelReactivate_Booking.htm
+    </topic>
+    
+    <topic>
+      Cargo_Receipt.htm
+    </topic>
+    
+    <topic>
+      Template_Booking.htm
+    </topic>
+    
+    <topic>
+      Vessel_Renomination.htm
+    </topic>
+    
+    <topic>
+      Booking_Cut_Off_Time_Approval.htm
+    </topic>
+    
+    <topic>
+      Over_Booking_Approval.htm
+    </topic>
+    
+    <topic>
+      Special_Cargo_Approval.htm
+    </topic>
+    
+    <topic>
+      Booking_Inquiry.htm
+    </topic>
+    
+    <topic>
+      Reason_Code_Setup.htm
+    </topic>
+    
+    <topic>
+      Vessel_Renomination_Parameters.htm
+    </topic>
+    
+    <topic>
+      Lookup.htm
+    </topic>
+    
+    <topic>
+      ‎Introduction.htm
+    </topic>
+    
+    <topic>
+      Menu.htm
+    </topic>
+    
+    <topic>
+      Booking_Entry.htm
+    </topic>
+    
+    <topic>
+      Booking_Search.htm
+    </topic>
+    
+    <topic>
+      New_Booking_screen.htm
+    </topic>
+    
+    <topic>
+      Express_Booking.htm
+    </topic>
+    
+    <topic>
+      Booking_Entry_screen.htm
+    </topic>
+    
+    <topic>
+      Close_Booking.htm
+    </topic>
+    
+    <topic>
+      CancelReactivate_Booking.htm
+    </topic>
+    
+    <topic>
+      Cargo_Receipt.htm
+    </topic>
+    
+    <topic>
+      Template_Booking.htm
+    </topic>
+    
+    <topic>
+      Vessel_Renomination.htm
+    </topic>
+    
+    <topic>
+      Booking_Cut_Off_Time_Approval.htm
+    </topic>
+    
+    <topic>
+      Over_Booking_Approval.htm
+    </topic>
+    
+    <topic>
+      Special_Cargo_Approval.htm
+    </topic>
+    
+    <topic>
+      Booking_Inquiry.htm
+    </topic>
+    
+    <topic>
+      Reason_Code_Setup.htm
+    </topic>
+    
+    <topic>
+      Vessel_Renomination_Parameters.htm
+    </topic>
+    
+    <topic>
+      Lookup.htm
+    </topic>
+    
+  </topiclist>
+  <filenamemap>
+    <filenameentry moniker="wh_languagetype">
+      <filename>
+        en_US
+      </filename>
+    </filenameentry>
+    <filenameentry moniker="startpage">
+      <filename>
+        index.htm
+      </filename>
+    </filenameentry>
+        
+  </filenamemap>
+</ppfml>

@@ -1,0 +1,590 @@
+p.Caption {
+    line-height: 150.0%;
+    text-align: center;
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 12.5pt;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .001pt
+}
+h1.Numbering231 {
+    margin-top: 12pt;
+    margin-bottom: 3pt;
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 11pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0
+}
+h1.Numbering231::before {
+    counter-increment: Numbering231;
+    content: counter(Numbering231,decimal)".";
+    padding-right : 0.5rem
+}
+h1.Numbering51 {
+    margin-top: 12pt;
+    margin-bottom: 3pt;
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 11pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0
+}
+h1.Numbering51::before {
+    counter-increment: Numbering51;
+    content: counter(Numbering51,decimal)".";
+    padding-right : 0.5rem
+}
+h2.Numbering332 {
+    margin-top: 12pt;
+    margin-bottom: 3pt;
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 10pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0
+}
+h2.Numbering332::before {
+    counter-increment: Numbering332;
+    content: counter(Numbering331,decimal)"."counter(Numbering332,decimal);
+    padding-right : 0.5rem
+}
+h2.Numbering232 {
+    margin-top: 12pt;
+    margin-bottom: 3pt;
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 10pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0
+}
+h2.Numbering232::before {
+    counter-increment: Numbering232;
+    content: counter(Numbering231,decimal)"."counter(Numbering232,decimal);
+    padding-right : 0.5rem
+}
+h3.Numbering341 {
+    margin-top: 12pt;
+    margin-bottom: 3pt;
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 10pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0
+}
+h3.Numbering341::before {
+    content: counter(bullet,disc);
+    padding-right : 0.5rem
+}
+span.Heading2Char {
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 10pt;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    padding: 0
+}
+span.Hyperlink {
+    color: #0000FF;
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 10pt;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0
+}
+ul.List10 {
+counter-reset: section101;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List11 {
+counter-reset: section111;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List14 {
+counter-reset: section141;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List20 {
+counter-reset: section201;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List29 {
+counter-reset: section291;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List31 {
+counter-reset: section311;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List32 {
+counter-reset: section321;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List8 {
+counter-reset: section81;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+p.ListParagraph {
+    font-family: 'Tahoma', 'sans-serif';
+    font-size: 10pt;
+    line-height: 108%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .001pt
+}
+table.NormalTable {
+    border-collapse: collapse;
+    border: none;
+    margin-bottom: .001pt
+}
+p.TOC1 {
+    margin-top: 6pt;
+    line-height: 115.0%;
+    font-family: Calibri;
+    font-size: 10pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .001pt
+}
+p.TOC2 {
+    margin-top: 6pt;
+    font-family: Calibri;
+    font-size: 10.5pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .001pt
+}
+p.TOC3 {
+    font-family: Calibri;
+    font-size: 11pt;
+    line-height: 108%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .001pt
+}
+p.TableofFigures {
+    font-family: Calibri;
+    font-size: 12.5pt;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .001pt
+}
+body {
+counter-reset:Numbering231 Numbering332 Numbering232 Numbering341 Numbering51 ;
+margin: 1cm auto; 
+ max-width: 20cm; 
+ padding: 0
+}
+span { white-space: pre-wrap
+}
+ul.List10 > li {
+ position: relative
+}
+ul.List10 > li::before {
+counter-increment: section101;
+content:counter(bullet,disc);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List10 > li::before::before {
+width: 40px
+}
+ul.List10 > li::before::before {
+margin-right: 4px
+}
+ul.List10 > li::before::before {
+left: -44px
+}
+ul.List10 > li::before::before {
+left: -44px
+}
+ul.List10 > li::before::before {
+left: -44px
+}
+ul.List10 > li::before::before {
+left: -44px
+}
+ul.List11 > li {
+ position: relative
+}
+ul.List11 > li::before {
+counter-increment: section111;
+content:counter(bullet,disc);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List11 > li::before::before {
+width: 40px
+}
+ul.List11 > li::before::before {
+margin-right: 4px
+}
+ul.List11 > li::before::before {
+left: -44px
+}
+ul.List11 > li::before::before {
+left: -44px
+}
+ul.List11 > li::before::before {
+left: -44px
+}
+ul.List11 > li::before::before {
+left: -44px
+}
+ul.List11 > li > ul {
+counter-reset: section112;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List11 > li > ul::before {
+margin-left: 0px
+}
+ul.List11 > li > ul::before {
+margin-left: 0px
+}
+ul.List11 > li > ul::before {
+margin-left: 0px
+}
+ul.List11 > li > ul::before {
+margin-left: 0px
+}
+ul.List11 > li > ul::before {
+padding-left: 40px
+}
+ul.List11 > li > ul > li {
+ position: relative
+}
+ul.List11 > li > ul > li::before {
+counter-increment: section112;
+content:counter(bullet,circle);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List11 > li > ul > li::before::before {
+width: 40px
+}
+ul.List11 > li > ul > li::before::before {
+width: 40px
+}
+ul.List11 > li > ul > li::before::before {
+margin-right: 4px
+}
+ul.List11 > li > ul > li::before::before {
+margin-right: 4px
+}
+ul.List11 > li > ul > li::before::before {
+left: -44px
+}
+ul.List11 > li > ul > li::before::before {
+left: -44px
+}
+ul.List11 > li > ul > li::before::before {
+left: -44px
+}
+ul.List11 > li > ul > li::before::before {
+left: -44px
+}
+ul.List11 > li > ul > li::before::before {
+left: -44px
+}
+ul.List11 > li > ul > li::before::before {
+left: -44px
+}
+ul.List11 > li > ul > li::before::before {
+left: -44px
+}
+ul.List11 > li > ul > li::before::before {
+left: -44px
+}
+ul.List14 > li {
+ position: relative
+}
+ul.List14 > li::before {
+counter-increment: section141;
+content:counter(bullet,disc);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List14 > li::before::before {
+width: 40px
+}
+ul.List14 > li::before::before {
+margin-right: 4px
+}
+ul.List14 > li::before::before {
+left: -44px
+}
+ul.List14 > li::before::before {
+left: -44px
+}
+ul.List14 > li::before::before {
+left: -44px
+}
+ul.List14 > li::before::before {
+left: -44px
+}
+ul.List20 > li {
+ position: relative
+}
+ul.List20 > li::before {
+counter-increment: section201;
+content:counter(bullet,disc);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List20 > li::before::before {
+width: 40px
+}
+ul.List20 > li::before::before {
+margin-right: 4px
+}
+ul.List20 > li::before::before {
+left: -44px
+}
+ul.List20 > li::before::before {
+left: -44px
+}
+ul.List20 > li::before::before {
+left: -44px
+}
+ul.List20 > li::before::before {
+left: -44px
+}
+ul.List20 > li > ul {
+counter-reset: section202;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List20 > li > ul::before {
+margin-left: 0px
+}
+ul.List20 > li > ul::before {
+margin-left: 0px
+}
+ul.List20 > li > ul::before {
+margin-left: 0px
+}
+ul.List20 > li > ul::before {
+margin-left: 0px
+}
+ul.List20 > li > ul::before {
+padding-left: 40px
+}
+ul.List20 > li > ul > li {
+ position: relative
+}
+ul.List20 > li > ul > li::before {
+counter-increment: section202;
+content:counter(bullet,circle);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List20 > li > ul > li::before::before {
+width: 40px
+}
+ul.List20 > li > ul > li::before::before {
+width: 40px
+}
+ul.List20 > li > ul > li::before::before {
+margin-right: 4px
+}
+ul.List20 > li > ul > li::before::before {
+margin-right: 4px
+}
+ul.List20 > li > ul > li::before::before {
+left: -44px
+}
+ul.List20 > li > ul > li::before::before {
+left: -44px
+}
+ul.List20 > li > ul > li::before::before {
+left: -44px
+}
+ul.List20 > li > ul > li::before::before {
+left: -44px
+}
+ul.List20 > li > ul > li::before::before {
+left: -44px
+}
+ul.List20 > li > ul > li::before::before {
+left: -44px
+}
+ul.List20 > li > ul > li::before::before {
+left: -44px
+}
+ul.List20 > li > ul > li::before::before {
+left: -44px
+}
+ul.List29 > li {
+ position: relative
+}
+ul.List29 > li::before {
+counter-increment: section291;
+content:counter(bullet,disc);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List29 > li::before::before {
+width: 40px
+}
+ul.List29 > li::before::before {
+margin-right: 4px
+}
+ul.List29 > li::before::before {
+left: -44px
+}
+ul.List29 > li::before::before {
+left: -44px
+}
+ul.List29 > li::before::before {
+left: -44px
+}
+ul.List29 > li::before::before {
+left: -44px
+}
+ul.List31 > li {
+ position: relative
+}
+ul.List31 > li::before {
+counter-increment: section311;
+content:counter(bullet,disc);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List31 > li::before::before {
+width: 40px
+}
+ul.List31 > li::before::before {
+margin-right: 4px
+}
+ul.List31 > li::before::before {
+left: -44px
+}
+ul.List31 > li::before::before {
+left: -44px
+}
+ul.List31 > li::before::before {
+left: -44px
+}
+ul.List31 > li::before::before {
+left: -44px
+}
+ul.List32 > li {
+ position: relative
+}
+ul.List32 > li::before {
+counter-increment: section321;
+content:counter(bullet,square);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List32 > li::before::before {
+width: 40px
+}
+ul.List32 > li::before::before {
+margin-right: 4px
+}
+ul.List32 > li::before::before {
+left: -44px
+}
+ul.List32 > li::before::before {
+left: -44px
+}
+ul.List32 > li::before::before {
+left: -44px
+}
+ul.List32 > li::before::before {
+left: -44px
+}
+ul.List8 > li {
+ position: relative
+}
+ul.List8 > li::before {
+counter-increment: section81;
+content:counter(bullet,circle);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List8 > li::before::before {
+width: 40px
+}
+ul.List8 > li::before::before {
+margin-right: 4px
+}
+ul.List8 > li::before::before {
+left: -44px
+}
+ul.List8 > li::before::before {
+left: -44px
+}
+ul.List8 > li::before::before {
+left: -44px
+}
+ul.List8 > li::before::before {
+left: -44px
+}

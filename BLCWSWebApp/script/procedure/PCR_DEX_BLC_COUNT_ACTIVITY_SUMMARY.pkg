@@ -1,0 +1,52 @@
+create or replace PACKAGE PCR_DEX_BLC_COUNT_ACTIVITY_SUMMARY AS 
+/*-----------------------------------------------------------------------------------------------------------
+- Search for DIM COUNT BY ACTIVITY SUMMARY
+-------------------------------------------------------------------------------------------------------------
+COPYRIGHT RCL PUBLIC CO., LTD. 2010
+-------------------------------------------------------------------------------------------------------------
+AUTHOR  Cognis 23/04/2020
+- CHANGE LOG ------------------------------------------------------------------------------------------------
+## DD/MM/YY           -USER-          -TASKREF-           -SHORT DESCRIPTION
+01 23/04/2020          Chandu                             
+-----------------------------------------------------------------------------------------------------------*/
+ 
+  PROCEDURE PCR_DEX_BLC_COUNT_ACTIVITY_SUMMARY_SEARCH(
+     
+      P_I_V_SERVICE                IN VARCHAR2,
+      P_I_V_VESSEL                 IN VARCHAR2,
+      P_I_V_VOYAGE                 IN VARCHAR2, 
+      P_I_V_DIRECTION              IN VARCHAR2,
+      P_I_V_POL                    IN VARCHAR2,
+      P_I_V_START_DATE             IN VARCHAR2,
+      P_I_V_END_DATE               IN VARCHAR2,      
+      P_I_V_USER_ID                IN VARCHAR2,
+      P_O_V_BLC_MAPPING_LIST       OUT SYS_REFCURSOR
+  ); 
+
+
+
+/*-----------------------------------------------------------------------------------------------------------
+- Search for DIM COUNT BY ACTIVITY Detailes.
+-------------------------------------------------------------------------------------------------------------
+COPYRIGHT RCL PUBLIC CO., LTD. 2010
+-------------------------------------------------------------------------------------------------------------
+AUTHOR  Cognis 23/04/2020
+- CHANGE LOG ------------------------------------------------------------------------------------------------
+## DD/MM/YY           -USER-          -TASKREF-           -SHORT DESCRIPTION
+01 23/04/2020          Chandu                             
+-----------------------------------------------------------------------------------------------------------*/
+   
+ PROCEDURE PCR_DEX_BLC_COUNT_ACTIVITY_SUMMARY_SEARCH_DETAILE( 
+      P_I_V_ACTION                 IN VARCHAR2,       
+      P_I_V_SERVICE                IN VARCHAR2,
+      P_I_V_VESSEL                 IN VARCHAR2,
+      P_I_V_VOYAGE                 IN VARCHAR2,
+      P_I_V_DIRECTION              IN VARCHAR2,
+      P_I_V_POL                    IN VARCHAR2,
+      P_I_V_START_DATE             IN VARCHAR2,
+      P_I_V_END_DATE               IN VARCHAR2,  
+      P_I_V_USER_ID                IN VARCHAR2,
+      P_O_V_BLC_MAPPING_LIST       OUT SYS_REFCURSOR
+  );
+        
+END PCR_DEX_BLC_COUNT_ACTIVITY_SUMMARY;

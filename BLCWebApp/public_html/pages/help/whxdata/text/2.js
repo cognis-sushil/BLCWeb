@@ -1,0 +1,1 @@
+rh._.exports({"0":["Booking Entry","Booking Entry"],"1":["\n\n\n\n\n  ","\n    ","\n    "," ","\n    ","Booking Entry menu is for creating and editing booking. The menu consists of 4 screens: Booking Search, New Booking, Booking Entry and Express Booking","\n    "," ","\n    ","\n      ‎"," ","\n  ","\n\n"],"2":["\n      ","Booking Entry"],"id":"2"})
